@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="" />
+    <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mail/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mail/SendMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CommonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Encrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PriceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PTBien"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PTBien&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PTBien/WEB_hk1.git",
-    "accountId": "f1eacea0-b63f-4e6a-9093-317e2ce89436"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PTBien/WEB_hk1.git&quot;,
+    &quot;accountId&quot;: &quot;f1eacea0-b63f-4e6a-9093-317e2ce89436&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rIcdoKYOZGhwGRwQasOAknqg7s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,7 +50,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Bien",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1/src/main/webapp",
+    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1/src/main/java/mail",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,7 +61,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\webapp" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\mail" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\service" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\utils" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\database\dao" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -71,6 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1736250121482</updated>
       <workItem from="1736250122438" duration="757000" />
+      <workItem from="1736311040823" duration="793000" />
+      <workItem from="1736434439928" duration="406000" />
     </task>
     <servers />
   </component>
