@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../testcommit.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/filter/Utf8Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/filter/Utf8Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test/dao/TestProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/dao/TestProductDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,9 +40,9 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Bien",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1/src/main/java/controller/shop/customer",
+    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +80,7 @@
       <workItem from="1736311040823" duration="793000" />
       <workItem from="1736434439928" duration="1239000" />
       <workItem from="1736505773828" duration="2848000" />
+      <workItem from="1736517793625" duration="4000" />
     </task>
     <servers />
   </component>
