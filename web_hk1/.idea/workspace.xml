@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mail/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mail/SendMail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CommonString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Encrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PriceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoLoginCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoLogoutCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoRegisterCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/VerifyRegisterCustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/PreventAccessAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/PreventAccessShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/filter/Utf8Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/dao/TestAdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/dao/TestProductDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Bien",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1/src/main/java/mail",
+    "last_opened_file_path": "C:/Work-Space/save/WEB_hk1/web_hk1/src/main/java/controller/shop/customer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\mail" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop\customer" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\filter" />
       <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\service" />
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\utils" />
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java" />
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\database\dao" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\test" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -86,7 +89,8 @@
       <updated>1736250121482</updated>
       <workItem from="1736250122438" duration="757000" />
       <workItem from="1736311040823" duration="793000" />
-      <workItem from="1736434439928" duration="406000" />
+      <workItem from="1736434439928" duration="1239000" />
+      <workItem from="1736505773828" duration="791000" />
     </task>
     <servers />
   </component>
