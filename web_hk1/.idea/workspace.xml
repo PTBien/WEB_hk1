@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoForgotCustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/product/ProductDetailServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/product/ProductsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +51,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop\product" />
+      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop\cart" />
       <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop\customer" />
       <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop" />
       <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\filter" />
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\service" />
-      <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\test" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -84,7 +79,7 @@
       <workItem from="1736434439928" duration="1239000" />
       <workItem from="1736505773828" duration="2848000" />
       <workItem from="1736517793625" duration="128000" />
-      <workItem from="1736611414031" duration="491000" />
+      <workItem from="1736611414031" duration="591000" />
     </task>
     <servers />
   </component>
