@@ -1,7 +1,53 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app>
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
   <display-name>Archetype Created Web Application</display-name>
+  <filter>
+    <filter-name>PreventAccessShop</filter-name>
+    <filter-class>filter.PreventAccessShop</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>PreventAccessShop</filter-name>
+    <url-pattern>/shop/profile.jsp</url-pattern>
+    <url-pattern>/shop/change-pass.jsp</url-pattern>
+  </filter-mapping>
+  <filter>
+    <!-- tất cả tài nguyên của hệ thống bao gồm các file html,css,js,images hay là servlet
+         nếu có đường dẫn là /admin/... đều bị chặn lại -->
+    <filter-name>PreventAccessAdmin</filter-name>
+    <filter-class>filter.PreventAccessAdmin</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>PreventAccessAdmin</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+
+  <!-- Kết nối Servlet với Ckfinder -->
+  <servlet>
+    <servlet-name>ConnectorServlet</servlet-name>
+    <servlet-class>com.ckfinder.connector.ConnectorServlet</servlet-class>
+    <init-param>
+      <description>
+        Path to configuration file can be relative path inside application,
+        absolute path on local file system or UNC path.
+      </description>
+      <param-name>XMLConfig</param-name>
+      <param-value>/WEB-INF/config.xml</param-value>
+    </init-param>
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>false</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectorServlet</servlet-name>
+    <url-pattern>
+      /libraries/ckfinder/core/connector/java/connector.java
+    </url-pattern>
+  </servlet-mapping>
+
 </web-app>
+

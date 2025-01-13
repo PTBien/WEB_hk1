@@ -18,7 +18,7 @@
                             đồ nội thất. Chúng tôi cam kết đem đến những
                             sản phẩm chất lượng với mức giá TỐT NHẤT trên thị trường.
                         </p>
-                        <p class="call">Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0978903360</a></span></p>
+                        <p class="call">Có bất kỳ câu hỏi nào vui lòng liên hệ:<span class="d-block"><a href="tel:123456789">0971387160</a></span></p>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-12">
@@ -51,8 +51,8 @@
                         <div class="contact">
                             <ul>
                                 <li class="mb-2">khu phố 6, Linh Trung, Thủ Đức, Thành phố Hồ Chí Minh</li>
-                                <li class="mb-2">20130446@st.hcmuaf.edu.vn</li>
-                                <li>0978903360</li>
+                                <li class="mb-2">20130203@st.hcmuaf.edu.vn</li>
+                                <li>0971387160</li>
                             </ul>
                         </div>
                         <ul class="icon mt-3">
@@ -75,7 +75,7 @@
                     <div class="col-lg-6 col-12">
                         <div class="left">
                             <p class="text-white">
-                                © 2023 - Bản quyền thuộc về nội thất future &#8722; Đã đăng ký bản quyền.
+                                © 2024 - Bản quyền thuộc về nội thất future &#8722; Đã đăng ký bản quyền.
                             </p>
                         </div>
                     </div>

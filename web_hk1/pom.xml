@@ -1,11 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.example</groupId>
-  <artifactId>web_hk1</artifactId>
+  <groupId>vn.edu.hcmuaf.fit</groupId>
+  <artifactId>Wed_ban_noi_that</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>web_hk1 Maven Webapp</name>
+  <properties>
+    <maven.compiler.source>20</maven.compiler.source>
+    <maven.compiler.target>20</maven.compiler.target>
+  </properties>
+  <name>Wed_ban_noi_that Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -51,6 +55,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>web_hk1</finalName>
+    <finalName>Wed_ban_noi_that</finalName>
   </build>
 </project>
