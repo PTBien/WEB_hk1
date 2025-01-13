@@ -10,36 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/checkout/CheckoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/shop/checkout/UpdateCheckoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/functions.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/CKFinder-2.6.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/CKFinderPlugin-FileEditor-2.6.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/CKFinderPlugin-ImageResize-2.6.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/CKFinderPlugin-Watermark-2.6.2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/commons-io-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/gson-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-logging-3.1.4.GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jboss-vfs-3.2.11.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mail-1.4.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/thumbnailator-0.4.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EmailValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PasswordUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoForgotCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoForgotCustomerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoRegisterCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoRegisterCustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mail/SendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mail/SendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/shop-footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/shop-footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shop/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop/product-details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shop/product-details.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shop/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/VerifyRegisterCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/VerifyRegisterCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shop/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +233,7 @@
       <workItem from="1736505773828" duration="2848000" />
       <workItem from="1736517793625" duration="128000" />
       <workItem from="1736611414031" duration="591000" />
-      <workItem from="1736786138064" duration="4139000" />
+      <workItem from="1736786138064" duration="9301000" />
     </task>
     <servers />
   </component>

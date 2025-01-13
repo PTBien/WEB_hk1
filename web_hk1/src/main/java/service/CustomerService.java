@@ -5,6 +5,7 @@ import model.Bill;
 import model.CartItem;
 import model.Customer;
 import model.Order;
+import utils.PasswordUtil;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -25,6 +26,7 @@ public class CustomerService {
         try {
             preState.setString(1, email);
             ResultSet rs = preState.executeQuery();
+
             while (rs.next()) {
                 int id_customer = rs.getInt("id_user_customer");
                 String email_customer = rs.getString("username");
@@ -49,7 +51,7 @@ public class CustomerService {
                 return null;
             } else {
                 Customer unique = customers.get(0);
-                if (unique.getPassword().equals(password)) {
+                if (PasswordUtil.checkPassword(password, unique.getPassword())) {
                     return unique;
                 }
             }

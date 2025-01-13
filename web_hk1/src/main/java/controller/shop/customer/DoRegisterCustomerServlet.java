@@ -4,6 +4,8 @@ import mail.Email;
 import mail.SendMail;
 import model.CustomerSecurity;
 import service.CustomerService;
+import utils.EmailValidator;
+import utils.PasswordUtil;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -23,6 +25,12 @@ public class DoRegisterCustomerServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String confirm_pass = request.getParameter("confirm-pass");
+        if (!EmailValidator.isValidEmail(email)) {
+            request.setAttribute("text_register", "Email không hợp lệ, vui lòng nhập lại.");
+            request.getServletContext().getRequestDispatcher("/shop/register.jsp").forward(request, response);
+            return;
+        }
+
         if(email.equals("") || password.equals("") || confirm_pass.equals("")){
             request.setAttribute("text_register", "Vui lòng hãy nhập vào những trường còn thiếu");
             request.getServletContext().getRequestDispatcher("/shop/register.jsp").forward(request, response);
@@ -35,10 +43,14 @@ public class DoRegisterCustomerServlet extends HttpServlet {
             if (password.equals(confirm_pass)) {
                 UUID uuid = UUID.randomUUID();
                 String id = uuid.toString();
-                CustomerSecurity customer_register = new CustomerSecurity(id, email, password);
+
+                 String hashedPassword = PasswordUtil.hashPassword(password);
+
+                CustomerSecurity customer_register = new CustomerSecurity(id, email, hashedPassword);
                 HttpSession session = request.getSession(true);
                 request.setAttribute("session_cus", session);
                 session.setAttribute("cus", customer_register);
+
                 String body = "Để tạo tài khoản và sử dụng các dịch vụ của chúng tôi hãy " +
 //                        "http://localhost:8080/shop/verify-register";
                         "<a href='http://localhost:8080/shop/verify-register?key=" + id + "'>nhấn vào đây!</a>";

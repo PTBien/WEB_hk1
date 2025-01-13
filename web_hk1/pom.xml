@@ -53,6 +53,11 @@
       <artifactId>javax.mail</artifactId>
       <version>1.5.5</version>
     </dependency>
+    <dependency>
+      <groupId>org.mindrot</groupId>
+      <artifactId>jbcrypt</artifactId>
+      <version>0.4</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>Wed_ban_noi_that</finalName>

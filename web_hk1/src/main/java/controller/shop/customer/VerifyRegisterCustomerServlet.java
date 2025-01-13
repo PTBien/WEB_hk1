@@ -19,6 +19,8 @@ public class VerifyRegisterCustomerServlet extends HttpServlet {
             if(request.getQueryString().equals("key="+ cus.getId())){
                 String email = cus.getEmail();
                 String password = cus.getPassword();
+                System.out.println(email);
+                System.out.println(password);
                 CustomerService.signUp(email,password);
                 session.invalidate();
                 request.getServletContext().getRequestDispatcher("/shop/login").forward(request, response);
@@ -28,6 +30,7 @@ public class VerifyRegisterCustomerServlet extends HttpServlet {
                 request.getServletContext().getRequestDispatcher("/shop/register").forward(request, response);
             }
         }catch (Exception e){
+            System.out.println(e);
             session.invalidate();
             request.setAttribute("text_register","Đăng ký không thành công, hãy đăng ký lại");
             request.getServletContext().getRequestDispatcher("/shop/register").forward(request, response);

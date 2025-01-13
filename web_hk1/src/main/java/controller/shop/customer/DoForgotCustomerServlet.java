@@ -36,6 +36,7 @@ public class DoForgotCustomerServlet extends HttpServlet {
             String id = uuid.toString();
             UUID uuid_password = UUID.randomUUID();
             String new_pass = uuid_password.toString();
+
             CustomerSecurity customerSecurity = new CustomerSecurity(id, email, new_pass);
             HttpSession session = request.getSession(true);
             request.setAttribute("session_forgot", session);
