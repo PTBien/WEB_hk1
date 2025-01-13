@@ -70,7 +70,7 @@
                 <div class="single-product mt-0 mb-0 mr-2 ml-2" data-quantity="${p.quantity}">
                     <div class="product-img">
                         <a href="${context}/shop/product-details?product_id=${p.idProduct}">
-                            <img class="default-img" src="${context}/${p.imgPath}" alt="#"/>
+                            <img class="default-img" src="${context}${p.imgPath}" alt="#"/>
                             <c:choose>
                                 <c:when test="${p.quantity == 0}">
                                     <span class="out">Hết</span>
@@ -151,7 +151,7 @@
                                                 <div class="single-product mt-2 mb-2 mr-2 ml-2" data-quantity="${p.quantity}">
                                                     <div class="product-img">
                                                         <a href="${context}/shop/product-details?product_id=${p.idProduct}">
-                                                            <img class="default-img" src="${context}/${p.imgPath}" alt="#"/>
+                                                            <img class="default-img" src="${context}${p.imgPath}" alt="#"/>
                                                             <c:choose>
                                                                 <c:when test="${p.quantity == 0}">
                                                                     <span class="out">Hết</span>
@@ -239,7 +239,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <div class="list-image">
-                                        <a href="${context}/shop/product-details?product_id=${p.idProduct}"><img src="${context}/${p.imgPath}" alt="#"/></a>
+                                        <a href="${context}/shop/product-details?product_id=${p.idProduct}"><img src="${context}${p.imgPath}" alt="#"/></a>
                                         <a href="${context}/shop/product-details?product_id=${p.idProduct}" class="buy"><i
                                                 class="fa fa-shopping-bag"></i></a>
                                     </div>

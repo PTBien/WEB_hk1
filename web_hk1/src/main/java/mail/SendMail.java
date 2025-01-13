@@ -31,10 +31,10 @@ public class SendMail {
         }
     }
     public static void main(String[] args) {
-        Email em = new Email("thanhloc3114@gmail.com", "ovdq jmue tyno euaa",
+        Email em = new Email("20130203@st.hcmuaf.edu.vn", "zyqc shbm dolw oyyk",
                 "text gửi mail mà hơi khó á",
                 "Để tạo tài khoản và sử dụng các dịch vụ của chúng tôi hãy <a href='#'>nhấn vào đây!</a>");
-        sendMail("20130378@st.hcmuaf.edu.vn", em);
+        sendMail("zozo369123@gmail.com", em);
         System.out.println("thanh cong");
     }
 }
