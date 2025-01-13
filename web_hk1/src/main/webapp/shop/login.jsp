@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-5 col-md-5 col-12">
                 <div class="h-100 d-flex align-items-center">
-                    <form class="m-0 p-5 text-center" action="/HoaChatThiNghiem_war/shop/login" method="post" name="form_login">
+                    <form class="m-0 p-5 text-center" action="/shop/login" method="post" name="form_login">
                         <h5 class="mb-4">Đăng Nhập</h5>
                             <%if(error != null){%>
                                 <div class="w-100 mb-3 alert alert-danger" role="alert">
