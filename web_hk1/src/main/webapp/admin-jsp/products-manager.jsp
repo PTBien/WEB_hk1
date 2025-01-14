@@ -178,7 +178,7 @@
                     var id = $(this).closest('tr').find('.idProduct').text()    // get data id of row after click in table
                     $.ajax({    // call Ajax for action delete product
                         url: '${context}/AjaxDeleteProductServlet',     //-- địa chỉ server
-                        type: 'POST',                                   //-- phương thức truyền : GET,POST,PUT,DELETE,...
+                        type: 'POST',                                   //-- phương thức truyền : POST
                         data: {IdProduct: id},                          //-- tham số truyền đến server
                         data_type: 'text',                              //-- kiểu dữ liệu nhận về từ server text,xml,json,...
                         success: (function (resultData) {
