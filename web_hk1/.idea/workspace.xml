@@ -10,15 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48c2bd5-54f0-422e-855c-c2e2c0d78587" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/EmailValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/profile/OrderHistoryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/profile/ProfileCustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoForgotCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoForgotCustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoRegisterCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/DoRegisterCustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/shop/customer/VerifyRegisterCustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/shop/customer/VerifyRegisterCustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/shop/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/shop/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin-jsp/products-manager.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin-jsp/products-manager.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +68,7 @@
     "Tomcat Server.Tomcat 9.0.97.executor": "Run",
     "git-widget-placeholder": "Bien",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Work-Space/save/doan",
+    "last_opened_file_path": "C:/Users/zozo3/Documents/Zalo Received Files/test/web_hk1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,6 +91,7 @@
       <recent name="C:\Work-Space\save\WEB_hk1\web_hk1\src\main\java\controller\shop\cart" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller.profile" />
       <recent name="controller.shop.checkout" />
       <recent name="controller.shop.cart" />
       <recent name="controller.service" />
@@ -233,7 +230,8 @@
       <workItem from="1736505773828" duration="2848000" />
       <workItem from="1736517793625" duration="128000" />
       <workItem from="1736611414031" duration="591000" />
-      <workItem from="1736786138064" duration="9301000" />
+      <workItem from="1736786138064" duration="9499000" />
+      <workItem from="1736819335689" duration="3671000" />
     </task>
     <servers />
   </component>
